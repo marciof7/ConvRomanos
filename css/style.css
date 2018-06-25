@@ -1,0 +1,15 @@
+.panel-primary>.panel-heading, .panel-heading{
+	background-image: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+.panel-primary>.panel-heading, .panel-heading{
+	padding: 25px 0;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}

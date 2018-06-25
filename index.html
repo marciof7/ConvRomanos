@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Trabalhando com Algorismos Romanos</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="panel panel-default">
+					<div class="panel-body text-center">
+						<h3>Números inteiros em Algorismos Romanos</h3>
+						<p>Informe o número inteiro que você deseja converter.</p>
+						<img src="img/img-rm.png" class="img-responsive" alt="convertendo-numeros-inteiros-para-romanos">
+						<div class="row">
+							<div class="form col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+								<div class="form-group">
+									<label for="inteiro">Número Inteiro</label>
+									<input type="tel" class="form-control text-center" id="inteiro" placeholder="Informe o valor" onkeyup="validateNumber(this);" maxlength="4">
+								</div>
+								<div class="form-group">
+									<label for="romano">Algorismo Romano</label>
+									<input type="text" class="form-control text-center" id="romano" placeholder="Aguarde o resultado..." readonly="readonly">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="panel panel-default">
+					<div class="panel-body text-center">
+						<h3>Algorismos Romanos em Números inteiros</h3>
+						<p>Informe o algarismo romano que você deseja converter.</p>
+						<img src="img/img-int.png" class="img-responsive" alt="convertendo-romanos-para-numeros-inteiros">
+						<div class="row">
+							<div class="form col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
+								<div class="form-group">
+									<label for="roman">Algorismo Romano</label>
+									<input type="text" class="form-control text-center" id="roman" placeholder="Informe o valor" onkeyup="validateLetters(this);">
+								</div>
+								<div class="form-group">
+									<label for="integer">Número Inteiro</label>
+									<input type="tel" class="form-control text-center" id="integer" placeholder="Aguarde o resultado..." readonly="readonly">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h5><b>Observações:*</b></h5>
+						<ul>
+							<li>Informe valores númericos inteiros maiores que zero e no máximo até 3999;</li>
+							<li>Uma vez que na numeração romana só podemos repetir cada letra três vezes, o maior número possível de escrever seria: 
+							MMMCMXCIX, ou seja, 3999;</li>
+							<li>Saiba mais sobre os <a href="https://pt.wikipedia.org/wiki/Numera%C3%A7%C3%A3o_romana">Algarismos Romanos</a>.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+
+</div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/function.js"></script>
+</body>
+</html>
